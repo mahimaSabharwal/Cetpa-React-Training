@@ -1,208 +1,64 @@
-body {
-    line-height: 1.2;
-}
-
-.digital-clock-wrap {
-    padding: 15px;
-    .dc-label {
-        padding-bottom: 15px;
-        font-weight: bold;
-        font-size: 20px;
-    }
-    .date-time {
-        background: linear-gradient(45deg, black, transparent);
-        width: 125px;
-        text-align: center;
-        padding: 35px 15px 0 15px;
-        font-weight: bold;
-        color: #fff;
-        line-height: 25px;
-        height: 125px;
-        vertical-align: middle;
-        border-radius: 50%;
-        margin-left: 20px;
-    }
-}
-
-// Form
-
-form {
-    padding: 30px;
-    input {
-        margin-bottom: 45px;
-        width: 60%;
-        height: 45px;
-        border-radius: 10px;
-        padding: 10px;
-        cursor: pointer;
-        &:hover {
-            outline: none;
-        }
-    }
-    .form-input {
-        position: relative;
-        .error {
-            position: absolute;
-            font-size: 16px;
-            top: 50px;
-        }
-    }
-    button {
-        background-color: #000;
-        padding: 10px 15px;
-        border-radius: 6px;
-        color: #fff;
-    }
-}
-
-// EMI Calculator
-
-.emi-wrap {
-    padding: 30px;
-    .emi-box {
-        margin-bottom: 20px;
-    }
-}
-
-// Currency converter
-.curr-converter-wrap {
-    padding: 15px 15px 50px 15px;
-    background-color: darkblue;
-    h3 {
-        color: #fff;
-    }
-    button {
-        width: 100% !important;
-        margin: 10px 0;
-        background-color: #f7e513;
-        border-color: #f7e513;
-        color: #000;
-    }
-
-    .curr-converter {
-        padding: 30px;
-    }
-
-    .curr-input-wrap {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 15px;
-        margin-top: 10px;
-        label {
-            margin-bottom: 5px;
-            color: #fff;
-        }
-        input,
-        select {
-            height: 40px;
-            padding: 10px;
-            border-radius: 6px;
-            outline: none;
-            border: 1px solid #ccc;
-            cursor: pointer;
-        }
-    }
-}
-
-// Theme Switcher
-
-.theme-switcher-wrap {
-    button {
-        margin-right: 30px;
-    }
-}
-
-// Theme Switcher
-
-.dark-cta {
-    background-color: #101820ff;
-    color: #fff;
-    padding: 15px 30px;
-    margin: 10px;
-    outline: 0;
-    border: 0;
-}
-
-.red-cta {
-    background-color: #ffc0cb;
-    color: #000;
-    padding: 15px 30px;
-    margin: 10px;
-    outline: 0;
-    border: 0;
-}
-
-.blue-cta {
-    background-color: #fffac0;
-    color: #000;
-    padding: 15px 30px;
-    margin: 10px;
-    outline: 0;
-    border: 0;
-}
-
-// Weather App
-
 .weather-wrap {
-    background-color: #1e1e4e;
-    color: #fff;
-    max-width: 500px;
-    margin: auto;
-    text-align: center;
-    padding: 30px 60px;
-    .weather-search-wrap{
-        margin: 20px 0 40px 0;
-        input{
-            background: transparent;
-            border: 0;
-            outline: 0;
-            border-bottom: 1px solid #fff;
-            height: 40px;
-            color: #fff;
-            cursor: pointer;
-            text-align: center;
-            width: 80%;
-        }
+  background-color: #4fa30a;
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 30px 60px;
+  .weather-search-wrap {
+    margin: 20px 0 40px 0;
+    input {
+      background: transparent;
+      border: 0;
+      outline: 0;
+      border-bottom: 1px solid #fff;
+      height: 40px;
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+      width: 80%;
     }
-    .weather-cards {
-        background: #fff;
-        padding: 20px;
-        border-radius: 15px;
-        color: #000;
-        text-align: left;
-        margin: 0 0 30px 0;
-        box-shadow: 1px 30px 0px -15px #1fafa7;
-        h3{
-            color: #6c6c6c;
-        }
-        h4, .degree, span, p{
-            margin-bottom: 15px;
-        }
-        .degree{
-            font-size: 60px;
-            font-weight: bold;
-        }
-        sup{
-            font-size:20px;
-            position:relative;
-            top:-30px;
-        }
-        p{
-            color: #99a599;
-            margin-top: 10px;
-            font-weight: 500;
-        }
+  }
+  .weather-cards {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    color: #000;
+    text-align: left;
+    margin: 0 0 30px 0;
+    h4,
+    .degree,
+    span,
+    p {
+      margin-bottom: 15px;
     }
+    .degree {
+      font-size: 60px;
+      font-weight: bold;
+    }
+    sup {
+      font-size: 20px;
+      position: relative;
+      top: -30px;
+    }
+    p {
+      color: #99a599;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+  }
 }
 
-::-webkit-input-placeholder { /* Edge */
-    color: #fff;
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #fff;
-  }
-  
-  ::placeholder {
-    color: #fff;
-  }
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
