@@ -1,17 +1,17 @@
 import React from "react";
 
-const EMITenure = (props) => {
+const EMIAmount = (props) => {
   return (
     <>
-      <h6>EMI to be paid for (in months)</h6>
+      <h6>Amount to be paid</h6>
       <input
-        type="number"
+        type="text"
         className="form-control"
         onChange={props.handleClick}
-        value={props.tenure}
+        value={props.amount}
       />
     </>
   );
 };
 
-export default EMITenure;
+export default EMIAmount;

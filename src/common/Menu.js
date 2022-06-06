@@ -55,18 +55,13 @@ const Menu = () => {
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to="/digiclockclass" className="btn btn-outline-light">
-                    Digital Clock Class
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
                   <Link to="/formfn" className="btn btn-outline-light">
                     Form Fn
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
                   <Link to="/emicalc" className="btn btn-outline-light">
-                    EMI Calculator Class
+                    EMI Calculator
                   </Link>
                 </Nav.Link>
                 <Nav.Link>

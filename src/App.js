@@ -11,7 +11,6 @@ import FetchAPI from "./component/FetchAPI";
 import AccordionDemo from "./component/Accordion";
 import FunToDoComponet from "./component/FunToDoComponent";
 import DigitalClock from "./component/DigitalClocks";
-import DigitalClockClass from "./component/ComponentDigitalClockClass";
 import FormFunctional from "./component/FormFn";
 import EMI from "./component/EMICalculator/EMI";
 import Parent from "./component/ContextReactDemo/Parent";
@@ -49,7 +48,6 @@ function App() {
                 <Route path="/accordemo" element={<AccordionDemo />} />
                 <Route path="/funtodolist" element={<FunToDoComponet />} />
                 <Route path="/digiclock" element={<DigitalClock />} />
-                <Route path="/digiclockclass" element={<DigitalClockClass />} />
                 <Route path="/formfn" element={<FormFunctional />} />
                 <Route path="/emicalc" element={<EMI />} />
                 <Route path="/contextdemo" element={<Parent />} />
