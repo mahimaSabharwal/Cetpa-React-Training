@@ -1,49 +1,50 @@
 body {
- padding: 0px 5px 0 15px;
- background-color: #f3f1f1;
+  padding: 0px 5px 0 15px;
+  background-color: #f3f1f1;
 }
 
-.todo_list_wrap{
+.todo_list_wrap {
   max-width: 650px;
-  margin:50px auto;
+  margin: 50px auto;
 }
 
-.add_item_input input{
-    padding: 10px;
-    cursor: pointer;
-    margin-bottom: 25px;
-    width: 97%;
-    border: 0;
-    outline: none;
+.add_item_input input {
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  width: 97%;
+  outline: none;
 }
 
-.add_item_input .add_item_cta{
-    background: #000;
-    color: #fff;
-    width: 180px;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-    display: inline-block;
+.add_item_input .add_item_cta {
+  background: #000;
+  color: #fff;
+  width: 180px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
 }
 
-.cta_wrap{
+.cta_wrap {
   display: flex;
   justify-content: space-between;
 }
 
-.todo_list{
+.todo_list {
   background: #fff;
-    padding: 10px;
-    margin: 0px 0 5px 0px;
-    width: 87%;
-    display: inline-block;
-    border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0px 0 5px 0px;
+  width: 89%;
+  display: inline-block;
+  border: 1px solid #ccc;
 }
 
-.todo_list:first-child{margin-top: 20px;}
+.todo_list:first-child {
+  margin-top: 20px;
+}
 
-.cta_delete{
+.cta_delete {
   background-color: red;
   color: #fff;
   text-align: center;
@@ -54,7 +55,7 @@ body {
 
 /* modal css */
 
-.modal-custom{
+.modal-custom {
   background: #fff;
   text-align: center;
   max-width: 600px;
@@ -68,7 +69,7 @@ body {
   border: 1px solid #ccc;
 }
 
-.modal-btn{
+.button-center {
   display: flex !important;
   margin: auto;
   text-align: center;
@@ -76,21 +77,22 @@ body {
 
 /* Global css */
 
-body{
+body {
   padding: 0;
   margin: 0;
 }
 
-main{
+main {
   margin: 0 0 40px 0;
 }
 
-header, footer{
+header,
+footer {
   text-align: center;
   padding: 20px;
 }
 
-.main-wrapper{
+.main-wrapper {
   padding: 15px 30px;
 }
 
@@ -98,7 +100,7 @@ button.btn.btn-info.btn-sm {
   margin: 10px 10px 10px 0;
 }
 
-.navbar-expand-lg{
+.navbar-expand-lg {
   flex-wrap: wrap !important;
   justify-content: center !important;
 }
