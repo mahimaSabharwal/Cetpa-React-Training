@@ -76,7 +76,7 @@ const Menu = () => {
                 </Nav.Link>
                 <Nav.Link>
                   <Link to="/expensetracker" className="btn btn-outline-light">
-                    Expense Tracker
+                    Income/Expense Tracker
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
