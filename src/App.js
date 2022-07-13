@@ -13,10 +13,10 @@ import FormFunctional from "./component/FormFn";
 import EMI from "./component/EMICalculator/EMI";
 import ExpenseTracker from "./component/ExpenseTracker/ExpenseTracker";
 import CurrencyConverter from "./component/CurrencyConverter/CurrencyConverter";
-import "./sass/style.scss";
 import ThemeApp from "./component/ThemeSwitcher/ThemeContext";
-import ContextDemo from "./component/ThemeSwitcher2/ContextDemo";
 import WeatherApp from "./component/WeatherApp/WeatherApp";
+import "./sass/style.scss";
+import ReduxApp from "./component/ReduxApp";
 
 function App() {
   return (
@@ -46,9 +46,8 @@ function App() {
                   path="/currencyconverter"
                   element={<CurrencyConverter />}
                 />
-                <Route path="/contextdemo2" element={<ContextDemo />} />
-                <Route path="/apijsonserver" element={<WeatherApp />} />
                 <Route path="/weatherapp" element={<WeatherApp />} />
+                <Route path="/reduxapp" element={<ReduxApp />} />
               </Routes>
             </div>
           </div>

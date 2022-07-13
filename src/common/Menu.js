@@ -8,7 +8,7 @@ const Menu = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-              <Navbar expand="lg">
+              <Navbar>
                 <Nav.Link>
                   <Link to="/home" className="btn btn-outline-light">
                     Home
@@ -29,46 +29,16 @@ const Menu = () => {
                     Modal Component
                   </Link>
                 </Nav.Link>
-                {/* <Nav.Link>
-                  <Link to="/compapi" className="btn btn-outline-light">
-                    Fetch API 1
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
-                  <Link to="/fetchapi" className="btn btn-outline-light">
-                    Fetch API 2
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
-                  <Link to="/accordemo" className="btn btn-outline-light">
-                    Accordion Demo
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
-                  <Link to="/funtodolist" className="btn btn-outline-light">
-                    Functional ToDOLIst
-                  </Link>
-                </Nav.Link> */}
                 <Nav.Link>
                   <Link to="/digiclock" className="btn btn-outline-light">
                     Digital Clock
                   </Link>
                 </Nav.Link>
-                {/* <Nav.Link>
-                  <Link to="/formfn" className="btn btn-outline-light">
-                    Form Fn
-                  </Link>
-                </Nav.Link> */}
                 <Nav.Link>
                   <Link to="/emicalc" className="btn btn-outline-light">
                     EMI Calculator
                   </Link>
                 </Nav.Link>
-                {/* <Nav.Link>
-                  <Link to="/contextdemo" className="btn btn-outline-light">
-                    Context DEmo
-                  </Link>
-                </Nav.Link> */}
                 <Nav.Link>
                   <Link to="/expensetracker" className="btn btn-outline-light">
                     Income/Expense Tracker
@@ -82,22 +52,6 @@ const Menu = () => {
                     Currency Converter
                   </Link>
                 </Nav.Link>
-                {/* <Nav.Link>
-                  <Link to="/hoc1" className="btn btn-outline-light">
-                    HOC1
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
-                  <Link to="/hoc2" className="btn btn-outline-light">
-                    HOC2
-                  </Link>
-                </Nav.Link> */}
-                {/* <Nav.Link>
-                  <Link to="/jsonserver" className="btn btn-outline-light">
-                    JSON Server API
-                  </Link>
-                </Nav.Link> */}
-                {/* <Nav.Link><Link to="/themeswitch" className='btn btn-outline-light'>Theme Switcher</Link></Nav.Link> */}
                 <Nav.Link>
                   <Link to="/contextdemo2" className="btn btn-outline-light">
                     Theme Switcher
@@ -107,6 +61,11 @@ const Menu = () => {
                 <Nav.Link>
                   <Link to="/weatherapp" className="btn btn-outline-light">
                     Weather App
+                  </Link>
+                </Nav.Link>
+                <Nav.Link>
+                  <Link to="/ReduxApp" className="btn btn-outline-light">
+                    Redux App
                   </Link>
                 </Nav.Link>
               </Navbar>

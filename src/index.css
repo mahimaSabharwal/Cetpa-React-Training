@@ -91,3 +91,8 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap !important;
+}
