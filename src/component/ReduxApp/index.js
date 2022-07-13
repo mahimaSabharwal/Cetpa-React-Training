@@ -1,25 +1,36 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Card, Col, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { storeProducts } from "../../redux/actions/productActions";
 
 const ReduxApp = () => {
   const dispatch = useDispatch();
-  const products = useSelector((state) => state.allProducts.products);
+  const products = useSelector((state) => state);
 
-  console.log(products);
   useEffect(() => {
     axios.get("https://fakestoreapi.com/products").then((response) => {
       dispatch(storeProducts(response.data));
     });
   }, []);
+
   return (
-    <div>
-      {products &&
-        products.map((item) => {
-          <p>{item.title}</p>;
+    <Row>
+      {products.allProducts.products.length &&
+        products.allProducts.products.map((item, index) => {
+          return (
+            <Col md={4}>
+              <Card>
+                <Card.Img variant="top" src={item.image} />
+                <Card.Body>
+                  <Card.Title>{item.title}</Card.Title>
+                  <Card.Text>{item.description}</Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          );
         })}
-    </div>
+    </Row>
   );
 };
 
