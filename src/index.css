@@ -96,6 +96,9 @@ footer {
   display: flex;
   flex-wrap: wrap !important;
 }
+.cardWrapper {
+  display: flex;
+}
 .card {
   margin-bottom: 30px;
 }

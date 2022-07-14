@@ -19,7 +19,7 @@ const ReduxApp = () => {
       {products.allProducts.products.length &&
         products.allProducts.products.map((item, index) => {
           return (
-            <Col md={4}>
+            <Col md={4} className="cardWrapper">
               <Card>
                 <Card.Img variant="top" src={item.image} />
                 <Card.Body>
